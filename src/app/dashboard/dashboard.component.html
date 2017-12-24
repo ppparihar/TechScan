@@ -1,0 +1,8 @@
+
+  <div *ngFor="let tech of technologyList" class="card">
+    <a routerLink="/repositories/{{tech.language}}">
+      <img [src]="tech.image">
+    </a>
+   
+   
+  </div>

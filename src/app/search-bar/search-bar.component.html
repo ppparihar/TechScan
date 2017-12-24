@@ -1,0 +1,12 @@
+ <select class="ddl left" >
+      <!-- <option selected> All</option>
+      <option>javaScript</option>
+      <option>java</option> -->
+      <option *ngFor="let tech of technologies">{{tech}}</option>
+  </select>
+  <div class="search left ml-3">    
+     <input type="text" class="searchTerm" placeholder="What are you looking for?">
+     <button type="submit" class="searchButton">Search
+    </button>
+  </div>
+<div class="clear"></div>

@@ -1,0 +1,126 @@
+.repo-list {
+    position: relative;
+}
+.repo-list-item {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style: none;
+    border-bottom: 1px solid #eee;
+}
+.social-count {
+    float: left;
+    padding: 3px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-left: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: repeat-x;
+    background-position: -1px -1px;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 0.25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #24292e;
+
+}
+
+.btn-sm {
+    padding: 3px 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+a.btn,a.social-count{
+text-decoration: none;
+}
+
+.btn-with-count {
+    float: left;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.social-list>li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 11px;
+    color: #24292e;
+    list-style-type: none;
+}
+ul.social-list{
+    margin: 0;
+    padding:0;
+}
+
+.btn .octicon {
+    vertical-align: text-top;
+}
+
+.d-table-cell {
+    display: table-cell !important;
+}
+
+.pt-2 {
+    padding-top: 8px !important;
+}
+
+.text-gray {
+    color: #586069 !important;
+}
+
+.col-2 {
+    width: 16.66667%;
+}
+
+.col-8 {
+    width: 66.66667%;
+}
+.text-right {
+    text-align: right !important;
+}
+.pr-3 {
+    padding-right: 16px !important;
+}
+
+.pt-2 {
+    padding-top: 8px !important;
+}
+.pt-1 {
+    padding-top: 4px !important;
+}
+
+.left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.h-sm{
+    height: 20px;
+}
+* {
+    box-sizing: border-box;
+}
